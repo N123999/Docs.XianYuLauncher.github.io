@@ -8,6 +8,7 @@ export default defineConfig({
       lang: 'zh-CN',
       title: "XianYuLauncher 文档",
       description: "XianYuLauncher - 文档",
+      ignoreDeadLinks: true,
       themeConfig: {
         nav: [
           { text: '首页', link: '/' },
