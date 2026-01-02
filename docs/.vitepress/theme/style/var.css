@@ -1,0 +1,58 @@
+:root {
+  /* 标题渐变色 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(
+    135deg,
+    #76c4fd 10%,
+    #bbe2fe 100%
+  );
+  
+  /* 图标背景配置 */
+  --vp-home-hero-image-background-image: linear-gradient(
+    135deg,
+    #bbe2fe 10%,
+    #76c4fd 100%
+  );
+  
+  /* 图标背景模糊效果 */
+  --vp-home-hero-image-filter: blur(150px);
+  
+  /* 布局调整 - 消除左侧空闲区域 */
+  --vp-layout-max-width: 100%; /* 使用全屏宽度 */
+  --vp-sidebar-width: 250px; /* 调整侧边栏宽度 */
+  --vp-main-width: calc(100% - var(--vp-sidebar-width)); /* 主内容区自适应剩余宽度 */
+  
+  /* 内容区域内边距调整 */
+  --vp-layout-content-padding: 24px;
+  
+  /* 导航栏布局 */
+  --vp-nav-height: 64px;
+  --vp-nav-padding: 0 24px;
+}
+
+.dark {
+	--vp-c-bg: #1b1b1f;
+	--vp-c-bg-alt: #161618;
+	--vp-c-bg-elv: #202127;
+	--vp-c-bg-soft: #202127;
+	--vp-input-bg-color: var(--vp-c-bg-alt);
+	--vp-local-search-bg: var(--vp-c-bg-alt);
+	--vp-local-search-result-bg: var(--vp-c-bg-alt);
+	--vp-local-search-result-selected-bg: var(--vp-c-bg-alt);
+}
+
+@media (min-width:768px) {
+	.DocSearch-Button {
+		--docsearch-muted-color: var(--docsearch-secondary-text-color);
+		--docsearch-searchbox-background: var(--vp-c-bg-alt)
+	}
+
+	.DocSearch-Search-Icon {
+		width: 15px;
+		height: 15px
+	}
+
+	.DocSearch-Button-Placeholder {
+		font-size: 13px
+	}
+}

@@ -1,0 +1,27 @@
+# 快速开始
+
+## 下载启动器
+
+1. 访问 [XianYuLauncher 官方网站](https://www.spiritstudio.com.cn/XianYuLauncher/) 或 [BBSMC](https://bbsmc.net/software/xianyulauncher) 或 [Lanzou](https://wwsa.lanzoub.com/XianYuLauncher) 或 [Github](https://github.com/N123999/XianYuLauncher-Help/releases)
+2. 点击 "下载" 按钮
+3. 等待下载完成
+
+## 安装启动器
+
+1. 找到下载的压缩包
+2. 解压压缩包到一个方便的位置，例如 `XianYuLauncher`
+3. 按照zip文件中的说明进行安装
+4. 安装完成后，开始使用 XianYuLauncher
+
+## 首次运行
+
+1. 双击 `XianYuLauncher` 启动 XianYuLauncher
+2. 等待启动器加载完成
+3. 阅读并同意最终用户协议
+4. 进入启动器主界面
+
+## 下一步
+
+- [启动器界面介绍](./interface.md)
+- [下载和安装 Minecraft](./download-minecraft.md)
+- [启动 Minecraft](./launch-minecraft.md)

@@ -1,0 +1,15 @@
+@import './var.css';
+
+/* 深色模式搜索框样式修复 */
+.dark {
+  --vp-local-search-bg: #161618 !important;
+  --vp-local-search-result-bg: #161618 !important;
+  --vp-local-search-result-selected-bg: #161618 !important;
+  --vp-input-bg-color: #161618 !important;
+}
+
+/* 深色模式导航栏搜索按钮样式修复 */
+.dark .DocSearch-Button {
+  background-color: #161618 !important;
+  --docsearch-searchbox-background: #161618 !important;
+}
