@@ -52,4 +52,3 @@ XianYuLauncher has built-in multiplayer service, allowing you to easily play wit
 
 - [Launcher Settings](./settings.md)
 - [FAQ](./faq.md)
-- [Troubleshooting](./troubleshooting.md)
