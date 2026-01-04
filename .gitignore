@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.local
+.env.test
+.env.production
+custom-env
+env
+env.test
+
+# Build output
+dist/
+build/
+
+# Cache
+cache/
+parcel-cache/
+.eslintcache
+.yarn/cache/
+.yarn/unplugged/
+.yarn/install-state.gz
+.pnp.*
+
+# IDE config
+.vscode/
+.idea/
+*.iml
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+$RECYCLE.BIN/
+Desktop.ini
+
+# Test coverage
+coverage/
+.nyc_output
+
+# Temp files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Other package managers
+bower_components/
+jspm_packages/
+
+# Serverless
+serverless/
+
+# Package locks
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Linux temp files
+*~
+*.swp
+*.swo
+
+# Trae related
+.trae/
